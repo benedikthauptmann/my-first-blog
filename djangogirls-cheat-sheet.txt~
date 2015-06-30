@@ -1,0 +1,45 @@
+starting venv.
+	~/djangogirls$ source myvenv/bin/activate
+
+starting django app
+	 python manage.py runserver
+
+
+deploy to PythonAnywhere
+========================
+	local:
+	- push to git	
+	
+	pythonanywhere:
+	- bash console
+	- start venv		
+	- git pull
+	- python manage.py collectstatic
+	- web tab 'reload'
+
+ORM console/QueryStes
+===========
+	~/djangogirls$ python manage.py shell
+
+
+Django
+======
+	- "Django models"
+		- data model of application
+		- file:	blog/models.py
+		- each python class inh. from 'models.Model'
+
+	- 'Django URLs'
+		- URL-mapping
+		- file: mysite/urls.py
+		- file: blog/urls.py
+
+	- 'Django Views'
+		- file: blog/views.py
+		- controller-functions for URL-mapping
+		- handle requests
+		- e.g., by template-renderer
+
+	- 'templates'
+		- location: blog/templates/...
+
