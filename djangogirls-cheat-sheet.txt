@@ -46,3 +46,7 @@ Django
 	- static files
 		- blog/static/....
 
+	- 'Django ModelForm'
+		- file blog/forms.py <- kind of a data model for HTTP-POST data (???)
+
+

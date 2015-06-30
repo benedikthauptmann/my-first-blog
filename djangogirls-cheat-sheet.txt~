@@ -43,3 +43,10 @@ Django
 	- 'templates'
 		- location: blog/templates/...
 
+	- static files
+		- blog/static/....
+
+	- 'Django ModelForm'
+		- file blog/forms.py <- POST model
+
+
