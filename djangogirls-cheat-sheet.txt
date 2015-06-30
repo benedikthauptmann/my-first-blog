@@ -14,7 +14,7 @@ deploy to PythonAnywhere
 	- bash console
 	- start venv		
 	- git pull
-	- python manage.py collectstatic
+	- python manage.py collectstatic	<- nicht immer nötig (???)
 	- web tab 'reload'
 
 ORM console/QuerySets
@@ -42,4 +42,7 @@ Django
 
 	- 'templates'
 		- location: blog/templates/...
+
+	- static files
+		- blog/static/....
 

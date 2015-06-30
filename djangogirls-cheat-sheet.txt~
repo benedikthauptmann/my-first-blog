@@ -14,11 +14,11 @@ deploy to PythonAnywhere
 	- bash console
 	- start venv		
 	- git pull
-	- python manage.py collectstatic
+	- python manage.py collectstatic	<- nicht immer nötig (???)
 	- web tab 'reload'
 
-ORM console/QueryStes
-===========
+ORM console/QuerySets
+=====================s
 	~/djangogirls$ python manage.py shell
 
 
